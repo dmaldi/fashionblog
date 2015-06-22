@@ -46,11 +46,43 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     color: #444;
+     line-height: 1.5;
      margin:0px;
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+     padding: 60px
+}
+
+a {
+     color: #D00;
+     text-decoration: none;
+}
+
+a:hover {
+     color: #A00;
+}
+
+h1 {
+     font-size: 3em;
+}
+
+h3 {
+     color: #CCC;
+     font-size: 2em;
+}
+
+h2 {
+     color: black;
+     font-size: 2em;
+}
+
+footer {
+     color: #BBB;
+}
+
+h4 {
+     text-align: right;
 }
 
 /******************************************
