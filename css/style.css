@@ -109,6 +109,20 @@ header h2 {
 
 article {
      border-bottom: 1px solid #DDD;
+     margin-top: 2em;
+     margin-bottom: 2em;
+     padding-bottom: 2em;
+}
+
+article p:first-letter {
+     font-size: 6em;
+     color: #DDD;
+     line-height: 1;
+
+}
+
+footer nav {
+     padding-bottom: 2em;
 }
 
 /******************************************
