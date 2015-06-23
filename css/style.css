@@ -77,12 +77,38 @@ h2 {
      font-size: 2em;
 }
 
+h2 a {
+     color: black;
+}
+
 footer {
      color: #BBB;
 }
 
 h4 {
      text-align: right;
+}
+
+header nav a {
+     font-size: 1.25em;
+     color: #DDD;
+     border-bottom: 2px solid #EEE;
+     margin-right: .75em;
+
+}
+
+header nav a:hover {
+     color: black;
+     border-bottom: 2px solid #BBB;
+}
+
+header h2 {
+     font-size: 1.5em;
+     margin-bottom: .5em;
+}
+
+article {
+     border-bottom: 1px solid #DDD;
 }
 
 /******************************************
