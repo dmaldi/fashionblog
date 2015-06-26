@@ -51,7 +51,39 @@ body {
      margin:0;
      font-family: 'Lato', sans-serif;
      font-size: 18px;
-     padding: 60px
+     padding: 60px;
+     width: 70em;
+}
+
+main {
+     width: 70%;
+     float: left;
+}
+
+aside {
+     width: 25%;
+     float: right;
+     margin-top: 6em;
+}
+
+aside h4 {
+     border-bottom: 1px solid #DDD;
+     padding: 1.5em 0;
+}
+
+aside img {
+     margin: auto;
+     padding: 1.5em;
+     border-bottom: 1px solid #DDD;
+}
+
+aside ul {
+     list-style-type: disc;
+}
+
+img {
+     display: block;
+     max-width: 100%;
 }
 
 a {
@@ -63,16 +95,22 @@ a:hover {
      color: #A00;
 }
 
-h1 {
+header h1 {
      font-size: 3em;
      display: inline;
      margin-right: 40px;
 }
 
-h2 {
+header h2 {
      color: black;
-     font-size: 2em;
+     font-size: 1.5em;
      display: inline;
+     margin-bottom: .5em;
+     color: #888;
+}
+
+h2 {
+     font-size: 2em;
 }
 
 h2 a {
@@ -84,30 +122,30 @@ h3 {
      font-size: 2em;
 }
 
-
 h4 {
      text-align: right;
 }
 
-nav {
-     background-color: #000;
+header nav ul li {
+     float: left;
+     width: 16.6666%;
+     margin: 0;
+     padding: 0;
 }
 
 header nav a {
      font-size: 1.25em;
-     color: #FFF;
-     margin-right: 1.25em;
-     padding: 25px;
+     color: white;
+     background: black;
+     margin-right: 1px;
+     text-align: center;
+     padding: 15px;
+     display: block;
 }
 
 header nav a:hover {
-    color: #FFF;
-}
-
-header h2 {
-     font-size: 1.5em;
-     margin-bottom: .5em;
-     color: #CCC;
+    background: #900;
+    color: white;
 }
 
 article {
@@ -125,6 +163,7 @@ article p:first-letter {
 
 footer {
      color: #BBB;
+     clear: both;
 }
 
 footer nav {
