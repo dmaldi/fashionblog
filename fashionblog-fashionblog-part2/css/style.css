@@ -84,6 +84,7 @@ aside ul {
 img {
      display: block;
      max-width: 100%;
+     margin: .8em 0;
 }
 
 a {
@@ -159,6 +160,8 @@ article p:first-letter {
      font-size: 6em;
      color: #DDD;
      line-height: 1;
+     margin: -.1em .1em 0 -.1em;
+     float: left;
 }
 
 footer {
